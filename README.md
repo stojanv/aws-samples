@@ -1,2 +1,2 @@
 # aws-samples
-Some of my aws cloudformation, boto3 and other samples and tests
+Some of my aws cloudformation, boto3 and other samples
