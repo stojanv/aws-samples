@@ -1,0 +1,28 @@
+{  
+   "TargetMetadata":{  
+      "TargetSchema":"SCOTT",
+      "SupportLobs":true,
+      "FullLobMode":true,
+      "LobChunkSize":64,
+      "LimitedSizeLobMode":false,
+      "LobMaxSize":0
+   },
+   "FullLoadSettings":{  
+      "FullLoadEnabled":true,
+      "ApplyChangesEnabled":true,
+      "TargetTablePrepMode":"TRUNCATE_BEFORE_LOAD",
+      "CreatePkAfterFullLoad":true,
+      "StopTaskCachedChangesApplied":false,
+      "StopTaskCachedChangesNotApplied":false,
+      "ResumeEnabled":true,
+      "ResumeMinTableSize":100000,
+      "ResumeOnlyClusteredPKTables":true,
+      "MaxFullLoadSubTasks":8,
+      "TransactionConsistencyTimeout":600,
+      "CommitRate":10000
+   },
+   "Logging":{  
+      "EnableLogging":true
+   }
+}
+

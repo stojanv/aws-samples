@@ -1,0 +1,14 @@
+{  
+   "TableMappings":[  
+      {  
+         "Type":"Explicit",
+         "SourceSchema":"SCOTT",
+         "SourceTable":"T1"
+      },
+      {  
+         "Type":"Explicit",
+         "SourceSchema":"SCOTT",
+         "SourceTable":"T2"
+      }
+   ]
+}
