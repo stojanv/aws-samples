@@ -14,5 +14,4 @@ Cloudformation template which creates and Oracle RDS instance and an option grou
 
 Cloudformation template which creates a PostgreSQL instance with the pg_stat_statements shared library. Usage:
 
-    aws cloudformation create-stack --stack-name "pg-rds-pg-stat-statements" --template-body file://pg_rds.json --parameters ParameterKey=VpcId,ParameterValue=<your vpc> Paramet
-erKey=Subnets,ParameterValue=\"<priv sub 1>, <priv sub 2>, ..\" ParameterKey=CidrIp,ParameterValue="<your CidrIp>" 
+    aws cloudformation create-stack --stack-name "pg-rds-pg-stat-statements" --template-body file://pg_rds.json --parameters ParameterKey=VpcId,ParameterValue=<your vpc> ParameterKey=Subnets,ParameterValue=\"<priv sub 1>, <priv sub 2>, ..\" ParameterKey=CidrIp,ParameterValue="<your CidrIp>" 
